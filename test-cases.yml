@@ -196,6 +196,8 @@
     Открыта страница магазина https://hexlet-products-store.vercel.app/
     Товар = Dior
     Товар = Gucci
+  test-data: 
+    empty
   steps:
     - Add to cart Dior
     - Add to cart Gucci
@@ -389,7 +391,7 @@
   test-data: |
     empty
   steps:
-    empty
+    - empty
   expected-result: |
    На странице каталога отображается перечень товаров, информацией о каждом из них. Рейтинг, цена, цена со скидкой
 
@@ -402,7 +404,7 @@
   test-data: |
     empty
   steps:
-    empty
+    - empty
   expected-result: |
    На странице с товаром отображается информация о нем. Рейтинг, цена, цена со скидкой
 
@@ -415,7 +417,7 @@
   test-data: |
     товар=Red Lipstick текущий остаток 68 шт
   steps:
-    нажать Add to cart один раз
+    - нажать Add to cart один раз
   expected-result: |
    Кол-во товара изменится на 67 шт, в корзине увеличится кол-во товара на 1 единицу
 
@@ -428,7 +430,7 @@
   test-data: |
     товар=Red Lipstick текущий остаток 68 шт
   steps:
-    нажать Add to cart один раз
+    - нажать Add to cart один раз
   expected-result: |
    Кол-во товара изменится на 67 шт, в корзине увеличится кол-во товара на 1 единицу
 
@@ -441,6 +443,6 @@
   test-data: |
     товар=Red Lipstick 
   steps:
-    В Description попробовать изменить/удалить текст
+    - В Description попробовать изменить/удалить текст
   expected-result: |
    Сайт не отзывается на манипуляции пользователя
