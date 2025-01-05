@@ -346,7 +346,7 @@
   prerequisites: |
     Наличие различных браузеров. Открыта страница сайта https://hexlet-products-store.vercel.app
   test-data:  
-  - Браузеры Chrome, Mozilla, Opera, Edge, Safari
+    Браузеры Chrome, Mozilla, Opera, Edge, Safari
   steps:
   - Открыть страницу сайта https://hexlet-products-store.vercel.app
   expected-result: |
