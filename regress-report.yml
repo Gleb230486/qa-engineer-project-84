@@ -126,7 +126,7 @@ test-cases:
 
 - summary: |
    Проверка запроса при оформлении заказа
-  status: pass   
+  status: fail
 
 bugreports:
 - summary : |
